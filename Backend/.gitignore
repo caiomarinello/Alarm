@@ -1,0 +1,45 @@
+# Ignore build output
+/dist/
+/out/
+/build/
+
+# Ignore Node.js modules
+/node_modules/
+
+# Ignore development dependencies
+/.env
+/.env.local
+/.env.*.local
+.env.production
+.env.test
+.env.development
+
+# Ignore log files
+/*.log
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+*.d.ts
+
+# Ignore IDE-specific files and directories (e.g., Visual Studio Code)
+.vscode/
+.idea/
+
+# Ignore user-specific configuration files
+*.iml
+*.suo
+*.user
+*.sln
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore Yarn lock file
+yarn.lock
+
+# Ignore compiled binary files (if applicable)
+/bin/
